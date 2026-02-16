@@ -1,43 +1,17 @@
-# This is a basic workflow for the Actions
-
-name: Create website
-
-# Controls when the workflow will run
+name: Create Docs
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" (or "master") branch
   push:
-    branches: 
-      - main
-  pull_request:
-    branches: 
-      - main
-  
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Needed by Zensical
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
-  # This workflow contains a single job called "deploy"
-  deploy:
-    # The type of runner that the job will run on
+  docs:
+    name: Docs
     runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.zensical.outputs.page_url }}
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-
-      - name: Install Python libraries
-        run: pip install pyyaml
-
-      # From https://github.com/marketplace/actions/zensical-action#deploy
       - name: Zensical Action
         id: zensical
         uses: cssnr/zensical-action@v1
