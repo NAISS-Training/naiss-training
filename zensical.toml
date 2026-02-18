@@ -1,5 +1,5 @@
 [project]
-site_name = "NAISS Training"
+#site_name = "NAISS Training"
 docs_dir = "docs"
 
 # This was used for MkDocs
