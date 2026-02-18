@@ -64,7 +64,7 @@ extra_css = ["css/extra.css"]
 # must be relative to the "docs_dir".
 # favicon = "favicon.ico"
 # Use a custom logo from docs/images.
-logo = "images/naiss_logo_white.png"
+logo = "images/naiss_logo_white_edge.png"
 
 # https://zensical.org/docs/setup/language/
 language = "en"
@@ -206,6 +206,6 @@ toggle.name = "Switch to dark mode"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
-logo = "images/naiss_logo_white_edge.png"
+#logo = "images/naiss_logo_white_edge.png#only-light"
 
 
