@@ -36,8 +36,8 @@ nav = [
     { "Previous" = "courses/previous.md"} ,
   ]},
   { "Recordings" = "recordings.md" },
-  { "Frequently Asked Questions (FAQ)" = "faq/faq.md" },
-  { "Contact Us" = "contact/contact_training.md" },
+  { "Frequently Asked Questions (FAQ)" = "faq.md" },
+  { "Contact Us" = "contact_training.md" },
   { "NAISS documentation" = "https://hpc.pages.naiss.se/user-documentation/support-docs/" }
 ]
 
