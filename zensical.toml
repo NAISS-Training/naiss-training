@@ -14,7 +14,7 @@ nav = [
   { "Courses" = [
     { "Upcoming" = "courses/upcoming.md" },
     { "Current" = "courses/current.md" } ,
-    { "Previous" = "courses/previous.md} ,
+    { "Previous" = "courses/previous.md"} ,
   ]},
   { "Recordings" = "recordings.md" },
   { "Frequently Asked Questions (FAQ)" = [
@@ -30,7 +30,6 @@ extra_css = ["static/css/styles.css"]
 
 #https://zensical.org/docs/setup/basics/?h=theme#theme-variant
 variant = "classic"
-
 
 # https://zensical.org/docs/customization/#extending-the-theme
 #custom_dir = "docs/overrides"
