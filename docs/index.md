@@ -5,4 +5,4 @@ These pages helps you find the courses you need for your research. Here you will
 - a list of current/upcoming courses and how often they are given
 - a list of previous courses - often with links to the material used
 - a list of recordings from previous courses
-- links to self-stufy material 
+- links to self-study material 
