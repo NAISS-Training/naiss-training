@@ -32,8 +32,9 @@ nav = [
   { "Home" = "index.md" },
   { "Courses" = [
     { "Upcoming" = "courses/upcoming.md" },
-    { "Previous" = "courses/previous.md" } 
+    { "Previous" = "courses/previous.md" }
   ]},
+  { "Self-study" = "self-study.md"},
   { "Recordings" = "recordings.md" },
   { "Frequently Asked Questions (FAQ)" = "faq.md" },
   { "Contact Us" = "contact_training.md" },
