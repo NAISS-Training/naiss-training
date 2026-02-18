@@ -206,6 +206,5 @@ toggle.name = "Switch to dark mode"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
-#logo = "images/naiss_logo_white_edge.png#only-light"
 
 
