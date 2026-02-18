@@ -37,9 +37,9 @@ nav = [
   ]},
   { "Recordings" = "recordings.md" },
   { "Frequently Asked Questions (FAQ)" = "faq/faq.md" },
-  ]},
+  },
   { "Contact Us" = "contact/contact_training.md" },
-  ]},
+  },
   { "NAISS documentation" = "https://hpc.pages.naiss.se/user-documentation/support-docs/" }
 ]
 
@@ -65,7 +65,7 @@ extra_css = ["css/styles.css"]
 # must be relative to the "docs_dir".
 # favicon = "favicon.ico"
 # Use a custom logo from docs/images.
-logo = "https://www.naiss.se/wp-content/uploads/2023/07/naiss_logo_white.png"
+logo = "images/naiss_logo_white.png"
 
 # https://zensical.org/docs/setup/language/
 language = "en"
@@ -114,21 +114,26 @@ features = [
     # https://zensical.org/docs/setup/header/#automatic-hiding
     # "header.autohide",
 
+    # This expands all sections in the navigation bar by default
     # https://zensical.org/docs/setup/navigation/#navigation-expansion
     # "navigation.expand",
 
+    #This turns on navigation in the footer for navigate next and previous page 
     # https://zensical.org/docs/setup/footer/#navigation
     "navigation.footer",
 
+    # make documents can be directly attached to sections
     # https://zensical.org/docs/setup/navigation/#section-index-pages
     "navigation.indexes",
 
     # https://zensical.org/docs/setup/navigation/#instant-navigation
     "navigation.instant",
 
+    # Will start to fetch the page when user hovers the link 
     # https://zensical.org/docs/setup/navigation/#instant-prefetching
     "navigation.instant.prefetch",
 
+    # Gives a progress indicator for loading 
     # https://zensical.org/docs/setup/navigation/#progress-indicator
     #"navigation.instant.progress",
 
@@ -183,3 +188,24 @@ features = [
     # https://zensical.org/docs/setup/navigation/#navigation-integration
     "toc.integrate",
 ]
+
+# ----------------------------------------------------------------------------
+# In the "palette" subsection you can configure options for the color scheme.
+# You can configure different color # schemes, e.g., to turn on dark mode,
+# that the user can switch between. Each color scheme can be further
+# customized.
+#
+# Read more:
+# - https://zensical.org/docs/setup/colors/
+# ----------------------------------------------------------------------------
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+
