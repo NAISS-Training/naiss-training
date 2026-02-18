@@ -41,7 +41,7 @@ nav = [
   { "NAISS documentation" = "https://hpc.pages.naiss.se/user-documentation/support-docs/" }
 ]
 
-extra_css = ["css/styles.css"]
+extra_css = ["css/extra.css"]
 
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["javascripts/extra.js"]
