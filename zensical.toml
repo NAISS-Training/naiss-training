@@ -5,6 +5,25 @@ docs_dir = "docs"
 # This was used for MkDocs
 # site_dir = "site"
 
+# The site_name is shown in the page header and the browser window title
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_name
+site_name = "NAISS training" 
+
+# The site_description is included in the HTML head and should contain a
+# meaningful description of the site content for use by search engines.
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_description
+site_description = "Information about NAISS training: current/past courses, recordings, etc." 
+
+# The site_author attribute. This is used in the HTML head element.
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_author
+#site_author = " "
+
+# The site_url is the canonical URL for your site. When building online
+# documentation you should set this.
+# Read more: https://zensical.org/docs/setup/basics/#site_url
 site_url = "https://naiss-training.github.io/naiss-training/"
 repo_url = "https://github.com/NAISS-Training/naiss-training"
 edit_uri = "blob/main/docs/"
@@ -17,24 +36,35 @@ nav = [
     { "Previous" = "courses/previous.md"} ,
   ]},
   { "Recordings" = "recordings.md" },
-  { "Frequently Asked Questions (FAQ)" = [
-       { "FAQ" = "faq/faq.md" },
+  { "Frequently Asked Questions (FAQ)" = "faq/faq.md" },
   ]},
-  { "Contact Us" = [
-    { "Contact Us" = "contact/contact_training.md" },
+  { "Contact Us" = "contact/contact_training.md" },
   ]},
   { "NAISS documentation" = "https://hpc.pages.naiss.se/user-documentation/support-docs/" }
 ]
 
-extra_css = ["static/css/styles.css"]
+extra_css = ["css/styles.css"]
+
+# Read more: https://zensical.org/docs/customization/#additional-javascript
+#extra_javascript = ["javascripts/extra.js"]
 
 #https://zensical.org/docs/setup/basics/?h=theme#theme-variant
-variant = "classic"
+# classic is like material
+#variant = "classic"
 
+# Zensical allows you to override specific blocks, partials, or whole
+# templates as well as to define your own templates. To do this, uncomment
+# the custom_dir setting below and set it to a directory in which you
+# keep your template overrides.
+#
 # https://zensical.org/docs/customization/#extending-the-theme
 #custom_dir = "docs/overrides"
 
+# With the "favicon" option you can set your own image to use as the icon
+# browsers will use in the browser title bar or tab bar. The path provided
+# must be relative to the "docs_dir".
 # favicon = "favicon.ico"
+# Use a custom logo from docs/images.
 logo = "https://www.naiss.se/wp-content/uploads/2023/07/naiss_logo_white.png"
 
 # https://zensical.org/docs/setup/language/
@@ -47,23 +77,34 @@ features = [
     "announce.dismiss",
 
     # https://zensical.org/docs/setup/repository/#code-actions
-    "content.action.edit",
+    #"content.action.edit",
 
     # https://zensical.org/docs/setup/repository/#code-actions
     #"content.action.view",
 
+    # Code annotations allow you to add an icon with a tooltip to your
+    # code blocks to provide explanations at crucial points.
     # https://zensical.org/docs/authoring/code-blocks/#code-annotations
     "content.code.annotate",
 
+    # This feature turns on a button in code blocks that allow users to
+    # copy the content to their clipboard without first selecting it.
     # https://zensical.org/docs/authoring/code-blocks/#code-copy-button
     "content.code.copy",
 
+    # Code blocks can include a button to allow for the selection of line
+    # ranges by the user.
     # https://zensical.org/docs/authoring/code-blocks/#code-selection-button
-    #"content.code.select",
+    "content.code.select",
 
+    # Zensical can render footnotes as inline tooltips, so the user can read
+    # the footnote without leaving the context of the document.
     # https://zensical.org/docs/authoring/footnotes/#footnote-tooltips
     "content.footnote.tooltips",
 
+    # If you have many content tabs that have the same titles (e.g., "Python",
+    # "JavaScript", "Cobol"), this feature causes all of them to switch to
+    # at the same time when the user chooses their language in one.
     # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
     "content.tabs.link",
 
