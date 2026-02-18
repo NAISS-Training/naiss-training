@@ -33,7 +33,7 @@ nav = [
   { "Courses" = [
     { "Upcoming" = "courses/upcoming.md" },
     { "Current" = "courses/current.md" } ,
-    { "Previous" = "courses/previous.md"} ,
+    { "Previous" = "courses/previous.md"} 
   ]},
   { "Recordings" = "recordings.md" },
   { "Frequently Asked Questions (FAQ)" = "faq.md" },
