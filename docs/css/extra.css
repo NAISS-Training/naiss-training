@@ -29,11 +29,13 @@
 	background: black;
 }
 
-[data-md-color-scheme="custom-dark"] .md-sidebar__scrollwrap {
+html.js-focus-visible.js body div.md-container main.md-main div.md-main__inner.md-grid div.md-sidebar.md-sidebar--primary div.md-sidebar__scrollwrap
+
+div.data-md-color-scheme="custom-dark" .md-sidebar__scrollwrap {
 	background-color: blueviolet;
 }
 
-[data-md-color-scheme="custom-light"] .md-sidebar__scrollwrap {
+div.data-md-color-scheme="custom-light" .md-sidebar__scrollwrap {
         background-color: red;
 }
 
