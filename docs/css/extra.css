@@ -21,6 +21,10 @@
     color: white !important;
 }
 
+.md-search__button::before {
+	background: white;
+}
+
 [data-md-color-scheme="custom-dark"] {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
