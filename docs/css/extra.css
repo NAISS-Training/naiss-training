@@ -29,6 +29,15 @@
 	background: black;
 }
 
+[data-md-color-scheme="custom-dark"] .md-sidebar__scrollwrap {
+	background-color: blueviolet;
+}
+
+[data-md-color-scheme="custom-light"] .md-sidebar__scrollwrap {
+        background-color: red;
+}
+
+
 [data-md-color-scheme="custom-dark"] {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
