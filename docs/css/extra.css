@@ -17,6 +17,10 @@
     color: white !important;
 }
 
+label.md-header__button:nth-child(6) {
+    color: white !important;
+}
+
 [data-md-color-scheme="custom-dark"] {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
