@@ -12,12 +12,15 @@
 	background-color: blueviolet;
 }*/
 
+.md-header {
+    background: linear-gradient(to right, #4b0029, #010088);
+    color: white !important;
+}
+
 [data-md-color-scheme="custom-dark"] {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #90030C;
-  background: linear-gradient(to right, #4b0029, #010088);
-  color: white !important;
 }
 
 [data-md-color-scheme="custom-light"] {
