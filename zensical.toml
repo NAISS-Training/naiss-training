@@ -70,6 +70,9 @@ logo = "images/naiss_logo_white_edge.png"
 # https://zensical.org/docs/setup/language/
 language = "en"
 
+# Change font to Sora
+font.text = "Sora"
+
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
 features = [
