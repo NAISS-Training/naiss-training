@@ -59,6 +59,15 @@ code {
 	color-scheme:light
 }
 
+.md-sidebar__scrollwrap {
+        background-color: grey;
+        color-scheme:light
+}
+
+.md-sidebar__scrollwrap {
+        background-color: #260059;
+        color-scheme:dark
+}
 
 /*[data-md-color-scheme="custom-dark"] {
   --md-primary-fg-color:        #EE0F0F;
