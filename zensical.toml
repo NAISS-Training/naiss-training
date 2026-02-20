@@ -45,7 +45,7 @@ nav = [
 extra_css = ["css/extra.css"]
 
 # Read more: https://zensical.org/docs/customization/#additional-javascript
-extra_javascript = ["javascripts/readthedocs.js"]
+extra_javascript = ["javascript/readthedocs.js"]
 
 #https://zensical.org/docs/setup/basics/?h=theme#theme-variant
 # classic is like material
