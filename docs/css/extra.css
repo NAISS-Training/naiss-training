@@ -30,12 +30,13 @@
 }
 
 [data-md-color-scheme=slate] .md-sidebar__scrollwrap {
-	background-color: blueviolet;
+	background-color: #260059;
 	color-scheme:dark
 }
 
-div.data-md-color-scheme="custom-light" .md-sidebar__scrollwrap {
+[data-md-color-scheme=slate] .md-sidebar__scrollwrap {
         background-color: red;
+	color-scheme:light
 }
 
 
