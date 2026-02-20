@@ -59,7 +59,7 @@ code {
 	color-scheme:light
 }*/
 
-.md-sidebar__scrollwrap {
+[data-md-color-scheme="default"] .md-sidebar__scrollwrap {
         background-color: grey;
         color-scheme:light
 }
