@@ -49,7 +49,7 @@ code {
 	background: black;
 }
 
-[data-md-color-scheme=slate] [data-md-color-primary=custom-dark] .md-sidebar__scrollwrap {
+/*[data-md-color-scheme=slate] [data-md-color-primary=custom-dark] .md-sidebar__scrollwrap {
 	background-color: #260059;
 	color-scheme:dark
 }
@@ -57,7 +57,7 @@ code {
 [data-md-color-scheme=slate] [data-md-color-primary=custom-light] .md-sidebar__scrollwrap {
         background-color: red;
 	color-scheme:light
-}
+}*/
 
 .md-sidebar__scrollwrap {
         background-color: grey;
