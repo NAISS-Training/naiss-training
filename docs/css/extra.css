@@ -60,7 +60,7 @@ code {
 }*/
 
 [data-md-color-scheme="default"] .md-sidebar__scrollwrap {
-        background-color: grey;
+        background-color: #ece7e7;
         color-scheme:light
 }
 
