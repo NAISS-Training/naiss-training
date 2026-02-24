@@ -29,7 +29,8 @@ site_url = "https://naiss-training.github.io/naiss-training/"
 repo_url = "https://github.com/NAISS-Training/naiss-training"
 edit_uri = "blob/main/docs/"
 
-nav = [
+# nav = [
+features = [
   { "Home" = "index.md" },
   { "Courses" = [
     { "Upcoming" = "courses/upcoming.md" },
