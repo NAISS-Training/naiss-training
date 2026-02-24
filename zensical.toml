@@ -29,8 +29,7 @@ site_url = "https://naiss-training.github.io/naiss-training/"
 repo_url = "https://github.com/NAISS-Training/naiss-training"
 edit_uri = "blob/main/docs/"
 
-# nav = [
-features = [
+nav = [
   { "Home" = "index.md" },
   { "Courses" = [
     { "Upcoming" = "courses/upcoming.md" },
@@ -154,7 +153,7 @@ features = [
     # When sections are enabled, top-level sections are rendered as groups in
     # the sidebar for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-sections
-    "navigation.sections",
+    #"navigation.sections",
 
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
